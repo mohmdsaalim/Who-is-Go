@@ -24,11 +24,13 @@ func main() {
 			fmt.Println(n)
 			
 	}
-	// Range Loop
+
+	// Range Loop most common use
 	// looping the map 
 	footballers := make(map[string]any) //This is an map key value pairs
 	footballers["JS"] = "Javascript"
 		for v,i := range footballers{
+			fmt.Println(i,v)
 			fmt.Println(i,v)
 		}
 }
