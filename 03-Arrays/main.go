@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 )
-
+// array is collection of same type of data type 
 func main() {
 // Inputing a value through terminal using fmt
 fmt.Print("Enter the name of player ")
@@ -13,8 +13,8 @@ fmt.Scan(&input)//taking the Value form the terminal
 	footballers := [5]string{"Messi","Mbappe"}
 	footballers[2] = "Neymar"
 	footballers[3] = "Pedri"
-	footballers[4] = input
-	fmt.Println(footballers)
+	footballers[0] = input // directly change becouse of 
+	fmt.Println(footballers[1:3])// sclicing from an array
 
 // itraite the array using for loop
 	for v,i := range footballers{
@@ -23,4 +23,5 @@ fmt.Scan(&input)//taking the Value form the terminal
 				fmt.Println(i,v)
 		}
 	}
-}
+
+}// cannot append
