@@ -3,6 +3,7 @@ package main
 import "fmt"
 // In go there must be a main func 
 // any support anoimous func inside the main function
+
 func main() {
 	// DEFER
 	fmt.Println("The Loop started")
@@ -14,8 +15,14 @@ func main() {
 	for a := 0; a <= 10; a++{
 		defer fmt.Println(a)
 	}
+	sum := func (aa, bb int) int {
+		return aa+bb
+	}
+	fmt.Println(sum(10,10))
 }
 
 func sum(a, b int) int{
 	return a+b
+
+
 }
