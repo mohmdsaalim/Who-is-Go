@@ -1,0 +1,23 @@
+//GO
+// Go lang is staticaly typed compiled programming langage and it is devoloped by google in 2009...
+// is mainly desinged for fast and simple espacially for backend & system level programming...
+//  concorancy, simple syntax, simplicity and high performance 
+
+// Concurrency is dealing with multiple tasks at the same time 
+// Go achieves concurrency using goroutines.
+// Concurrency is about structure, parallelism is about execution.
+
+// Parallism 
+// Parallelism is the ability to execute multiple tasks at the exact same time using multiple CPU cores.
+//	•	Core 1 → Task A (Video encoding)
+//	•	Core 2 → Task B (File download)
+
+
+//  A GOROUTINES
+//  is a lightweight thread managed by the Go runtime that allows functions to run concurrently.
+//  Managed by Go scheduler, not the OS and take low memory space
+//  goroutine (non-blocking)
+
+
+
+

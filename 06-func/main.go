@@ -1,6 +1,7 @@
 package main
 
 import "fmt"
+//A function in Go is a named block of code that performs a specific task, can accept parameters, and can return one or more values.
 // In go there must be a main func 
 // any support anoimous func inside the main function
 
