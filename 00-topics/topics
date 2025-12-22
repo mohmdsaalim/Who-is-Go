@@ -1,23 +1,87 @@
-//GO
-// Go lang is staticaly typed compiled programming langage and it is devoloped by google in 2009...
-// is mainly desinged for fast and simple espacially for backend & system level programming...
-//  concorancy, simple syntax, simplicity and high performance 
+🐹 Go Basics – 1 Week Study Plan
 
-// Concurrency is dealing with multiple tasks at the same time 
-// Go achieves concurrency using goroutines.
-// Concurrency is about structure, parallelism is about execution.
+📅 Day 1 – Go Introduction & Setup
+	•	What is Go (Golang)?
+	•	Why Go is used
+	•	Installing Go
+	•	Go workspace & folder structure
+	•	go run, go build
+	•	package main
+	•	main() function
+	•	Importing packages
+	•	fmt.Println, fmt.Printf
+	•	Comments (single & multi-line)
 
-// Parallism 
-// Parallelism is the ability to execute multiple tasks at the exact same time using multiple CPU cores.
-//	•	Core 1 → Task A (Video encoding)
-//	•	Core 2 → Task B (File download)
+⸻⸻⸻⸻⸻⸻⸻⸻⸻
+
+📅 Day 2 – Variables & Data Types
+	•	var keyword
+	•	Short declaration :=
+	•	Constants (const)
+	•	Data types:
+	•	int, float
+	•	string
+	•	bool
+	•	byte, rune
+	•	Zero values
+	•	Type conversion
+	•	Multiple variable declaration
+
+⸻⸻⸻⸻⸻⸻⸻⸻⸻
+
+📅 Day 3 – Control Flow
+	•	if, else if, else
+	•	switch statement
+	•	for loop (all forms)
+	•	break & continue
+	•	Nested loops
+
+⸻⸻⸻⸻⸻⸻⸻⸻⸻
+
+📅 Day 4 – Functions & Packages
+	•	Function syntax
+	•	Parameters & return values
+	•	Multiple return values
+	•	Named return values
+	•	Anonymous functions
+	•	Basic packages
+	•	Creating your own package
+
+⸻⸻⸻⸻⸻⸻⸻⸻⸻
+
+📅 Day 5 – Arrays, Slices & Maps
+	•	Arrays
+	•	Slices
+	•	make()
+	•	append()
+	•	Slice vs Array
+	•	Maps
+	•	Create, insert, delete
+	•	Check key existence
+	•	Range keyword
+
+⸻⸻⸻⸻⸻⸻⸻⸻⸻
+
+📅 Day 6 – Structs, Pointers & Methods
+	•	Structs
+	•	Struct initialization
+	•	Pointers
+	•	Dereferencing
+	•	Passing by value vs reference
+	•	Methods
+	•	Receiver functions
+
+⸻⸻⸻⸻⸻⸻⸻⸻
+
+📅 Day 7 – Interfaces & Concurrency Basics
+	•	Interfaces (basic understanding)
+	•	Implementing interfaces
+	•	Goroutines
+	•	go keyword
+	•	time.Sleep
+	•	Basic idea of channels
+	•	Error handling (error type)
+	•	defer keyword
 
 
-//  A GOROUTINES
-//  is a lightweight thread managed by the Go runtime that allows functions to run concurrently.
-//  Managed by Go scheduler, not the OS and take low memory space
-//  goroutine (non-blocking)
-
-
-
-
+⸻⸻⸻⸻⸻⸻⸻⸻
