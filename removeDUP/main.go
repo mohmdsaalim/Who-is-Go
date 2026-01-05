@@ -1,6 +1,8 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 func main() {
 	arr := []int{1,2,2,3,3,4,4,5,5,1}
@@ -21,4 +23,5 @@ func rem(nw []int) []int {
 		}
 	}
 return result
+
 }

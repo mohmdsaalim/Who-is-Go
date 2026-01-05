@@ -1,0 +1,25 @@
+REST API is a standard way for two systems
+ to talk to each other over the internet using HTTP.
+
+Think of it like shopping online 🛒
+👉🏻 You browse products → place order → get delivery.
+👉🏻 Same way: App sends a request → server processes it → app gets data.
+
+REST = Representational State Transfer
+
+✅ R – Representational
+You don’t send raw data — you send representations like JSON or XML.
+
+✅ S – State
+Server doesn’t remember you.
+Every request carries everything it needs → stateless.
+
+✅ T – Transfer
+Data is transferred using HTTP methods:
+GET (read) • POST (create) • PUT (update) • DELETE (remove)
+
+👉🏻 Real-life example (Bank App):
+• Check account balance → GET
+• Transfer money → POST
+• Update profile details → PUT
+• Close account → DELETE
