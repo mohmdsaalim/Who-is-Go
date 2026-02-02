@@ -37,3 +37,5 @@ func main() {
     fmt.Println(calculateArea(cir))
 
 }
+
+// interface composition and creating errors with the interface
