@@ -5,9 +5,9 @@ import (
 
 )
 func main() {
-// slice of structs
+// slice of structs 
 // Slice have contain the backing arrays defultly it is 6 or capis 6
-// 0. value of slice is nill
+// 0. value of slice is nill 
 arr := []struct {
  i int
  o string
